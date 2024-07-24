@@ -1,23 +1,21 @@
 {
-  "name": "mongo_livrria",
+  "name": "api---node",
   "version": "1.0.0",
-  "description": "Projeto para recisar os conceito de backend",
-  "main": "server.js",
+  "main": "index.js",
   "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "nodemon server.js"
+    "dev": "nodemon server.js",
+    "start": "nodemon server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [
-    "backend",
-    "livraria"
-  ],
-  "author": "Eduardo",
+  "keywords": [],
+  "author": "",
   "license": "ISC",
-  "devDependencies": {
-    "nodemon": "^3.1.4"
-  },
+  "description": "",
   "dependencies": {
-    "express": "^4.19.2"
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "mongoose": "^8.5.1",
+    "nodemon": "^3.1.4"
   }
 }

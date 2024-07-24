@@ -1,0 +1,6 @@
+import express from "express";
+import LivroController from "../controllers/livroController";
+
+const routes = express.Router();
+
+routes.ger("/livros", LivroController.listarLivros);
